@@ -44,7 +44,7 @@ src
 └── test
     ├── java/org/example
     │   ├── RunnerTest.java
-    │   └── StepDefinitions   ParameterDefinition, Hooks, ProductStepDefinition
+    │   └── StepDefinitions   ParameterDefinition,ProductStepDefinition
     └── resources/features    Products.feature
 ```
 
