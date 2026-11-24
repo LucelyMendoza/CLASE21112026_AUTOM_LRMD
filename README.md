@@ -30,7 +30,7 @@ Resultado de la última ejecución con `mvn clean verify`.
 
 ![Resumen](evidencias/RESUMEN.png)
 
-**Detalle de un escenario (request y response)**
+**Detalle de escenarios**
 
 ![Detalle](evidencias/Features.png)
 
@@ -48,7 +48,7 @@ src
     └── resources/features    Products.feature
 ```
 
-- **Feature (Gherkin):** Hice cuatro casos en español con `Scenario Outline` y su tabla `Examples`, para que los datos queden separados de los pasos.
+- **Feature (Gherkin):** Hice cuatro casos `Scenario Outline` y su tabla `Examples`, para que los datos queden separados de los pasos.
 - **Step definitions:** Aquí se conectan cada paso del feature con la Task o la Question que corresponde para products. 
 - **Tasks (Screenplay):** `GetProductById` hace el GET a `/products/{id}` y `PostProduct` hace el POST a `/products/add` con el cuerpo en JSON.
 - **Questions:** `ResponseCode` lee el código HTTP y `ResponseField` lee un campo del JSON de la respuesta. Con eso se validan tanto el código como los datos.
